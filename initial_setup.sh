@@ -106,5 +106,4 @@ fi
 
 
 # ROS realsense camera package
-sudo apt install -y librealsense2-dkms librealsense2-utils
 sudo apt install -y ros-$ROS_DISTRO-realsense2-camera
