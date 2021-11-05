@@ -56,6 +56,11 @@ sudo apt install -y curl ssh net-tools terminator chrony ntpdate vim git
 sudo ntpdate ntp.ubuntu.com
 
 
+# Install Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
+
 # Install ROS
 echo -e "\033[1;31mStarting ROS $ROS_DISTRO installation ...\033[0m"
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
